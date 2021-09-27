@@ -1,0 +1,37 @@
+.contact {
+  padding-top: 20px;
+  min-height: 30vh;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: $color-accent;
+  color: $color-secondary;
+
+  h2 {
+    color: $color-secondary;
+    margin-left: 5px;
+  }
+
+  .container {
+    .description {
+      p {
+        color: $color-secondary;
+        margin-left: 5px;
+      }
+    }
+
+    .contact-list {
+      margin-top: 20px;
+      margin-left: 5px;
+
+      .contact-item {
+        margin-bottom: 8px;
+
+        a {
+          margin-left: 10px;
+          text-decoration: none;
+          color: $color-secondary;
+        }
+      }
+    }
+  }
+}
