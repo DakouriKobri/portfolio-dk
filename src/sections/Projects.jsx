@@ -1,7 +1,24 @@
+// Project files
+import ProjectCard from "../components/ProjectCard";
+import projectData from "../data/projectData.json";
+
 export default function Projects() {
+  const ProjectList = projectData.map((project) => (
+    <ProjectCard key={project.id} project={project} />
+  ));
+
   return (
-    <div>
-      <h1>Projects</h1>
-    </div>
+    <section className="projects">
+      <h2>Projects</h2>
+      <div className="container">
+        <div className="description">
+          <p>
+            Here are the projects I will be running during the Frontend course
+            at Novare Potential.
+          </p>
+        </div>
+        <div className="wrapper">{ProjectList}</div>
+      </div>
+    </section>
   );
 }
