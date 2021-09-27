@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "ClearSans";
+  src: url("../assets/fonts/ClearSans-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "ClearSans";
+  src: url("../assets/fonts/ClearSans-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "ClearSans";
+  src: url("../assets/fonts/ClearSans-Medium.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ClearSans";
+  src: url("../assets/fonts/ClearSans-Regular.ttf");
+  font-weight: 200;
+}
