@@ -1,10 +1,16 @@
-.about {
+.tech {
   padding-top: 80px;
   min-height: 100vh;
   margin-right: 5px;
   margin-left: 5px;
 
-  .about__text {
+  h2 {
     margin-left: 5px;
+  }
+
+  .container {
+    .description p {
+      margin-left: 5px;
+    }
   }
 }
