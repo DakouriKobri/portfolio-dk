@@ -1,0 +1,52 @@
+.menu {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2b6cc1;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.menu nav {
+  padding: 10px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  padding: 0;
+  border-radius: 30px;
+}
+
+.menu nav ul {
+  padding: 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu nav ul li {
+  padding: 9px 10px 10px;
+}
+
+.menu nav ul li a {
+  text-decoration: none;
+  color: #dbecf1;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 400;
+}
+
+.menu nav ul li a span img {
+  width: 28px;
+  height: 28px;
+}
+/*# sourceMappingURL=Menu.css.map */

@@ -1,24 +1,28 @@
-import { NavLink } from "react-router-dom";
+import logo from "../assets/images/logo.png";
 
 export default function Menu() {
   return (
-    <div>
+    <div className="menu">
       <nav>
         <ul>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <a href="#about">About</a>
           </li>
           <li>
-            <NavLink to="/projects">Projects</NavLink>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <NavLink to="/">Logo</NavLink>
+            <a href="#hero" className="logo">
+              <span>
+                <img src={logo} alt="logo of Dakouri" />
+              </span>
+            </a>
           </li>
           <li>
-            <NavLink to="/tech">Tech</NavLink>
+            <a href="#tech">Tech</a>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>

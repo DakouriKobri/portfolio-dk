@@ -1,5 +1,4 @@
 // NPM Package
-import { Route } from "react-router-dom";
 
 // Local files
 import Menu from "./components/Menu";
@@ -8,16 +7,17 @@ import About from "./sections/About";
 import Tech from "./sections/Tech";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
+import "./styles/styles.scss";
 
 function App() {
   return (
     <div className="App">
       <Menu />
-      <Route exact path="/" component={Hero} />
-      <Route path="/about" component={About} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/tech" component={Tech} />
-      <Route path="/contact" component={Contact} />
+      <Hero />
+      <About />
+      <Projects />
+      <Tech />
+      <Contact />
     </div>
   );
 }
