@@ -1,10 +1,23 @@
+// NPM Package
+import { Route } from "react-router-dom";
+
+// Local files
+import Menu from "./components/Menu";
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Tech from "./sections/Tech";
+import Projects from "./sections/Projects";
+import Contact from "./sections/Contact";
+
 function App() {
   return (
     <div className="App">
-      <h1>Kobri</h1>
-      DBECF1 859FD0 2B6CC1 0C2A83 041144
-      <br />
-      041144 0C3198 2B6CC1 CADEE6 859CC6
+      <Menu />
+      <Route exact path="/" component={Hero} />
+      <Route path="/about" component={About} />
+      <Route path="/projects" component={Projects} />
+      <Route path="/tech" component={Tech} />
+      <Route path="/contact" component={Contact} />
     </div>
   );
 }
