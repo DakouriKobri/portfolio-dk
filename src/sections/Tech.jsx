@@ -8,7 +8,7 @@ export default function Tech() {
     <TechCard key={tech.id} tech={tech} />
   ));
   return (
-    <section className="tech">
+    <section className="tech" id="tech">
       <h2>Tech</h2>
       <div className="container">
         <div className="description">

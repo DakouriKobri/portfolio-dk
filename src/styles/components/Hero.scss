@@ -1,0 +1,30 @@
+@import "../base/variables";
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  height: calc(100vh - 60px);
+  font-weight: 400;
+  font-size: 34px;
+  color: $color-secondary;
+  background-image: url("../../assets/images/programming.jpg");
+  background-position: center center;
+  background-size: cover;
+
+  .introduction {
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50px;
+    width: 300px;
+    background-color: rgba(4, 17, 68, 0.7);
+
+    h1,
+    h2 {
+      margin-bottom: 8px;
+    }
+  }
+}
