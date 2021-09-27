@@ -1,0 +1,27 @@
+.footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: $color-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  .list-social-media {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+    li {
+      list-style: none;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .copyright p {
+    color: $color-secondary;
+    margin-top: 8px;
+  }
+}

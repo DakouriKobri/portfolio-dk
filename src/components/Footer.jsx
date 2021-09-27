@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Footer() {
   return (
-    <div>
+    <div className="footer">
       <ul className="list-social-media">
         <li>
           <a href="https://www.linkedin.com/in/dakouri-m-kobri-009192208/">
@@ -9,7 +9,7 @@ export default function Footer() {
               <FontAwesomeIcon
                 icon={["fab", "linkedin"]}
                 size="lg"
-                style={{ color: "blue" }}
+                style={{ color: "#dbecf1" }}
               />
             </i>
           </a>
@@ -20,7 +20,7 @@ export default function Footer() {
               <FontAwesomeIcon
                 icon={["fab", "github"]}
                 size="lg"
-                style={{ color: "blue" }}
+                style={{ color: "#dbecf1" }}
               />
             </i>
           </a>
@@ -31,7 +31,7 @@ export default function Footer() {
               <FontAwesomeIcon
                 icon={["fab", "twitter"]}
                 size="lg"
-                style={{ color: "blue" }}
+                style={{ color: "#dbecf1" }}
               />
             </i>
           </a>
