@@ -15,7 +15,7 @@ export default function Menu() {
             <NavLink to="/">Logo</NavLink>
           </li>
           <li>
-            <NavLink to="/tech">Teck</NavLink>
+            <NavLink to="/tech">Tech</NavLink>
           </li>
           <li>
             <NavLink to="/contact">Contact</NavLink>
