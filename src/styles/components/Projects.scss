@@ -1,0 +1,26 @@
+.projects {
+  padding-top: 80px;
+  background-color: $color-accent;
+  min-height: 100vh;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  color: $color-secondary;
+
+  h2 {
+    margin-left: 5px;
+  }
+
+  p {
+    color: $color-secondary;
+    margin-left: 5px;
+  }
+  .container .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
