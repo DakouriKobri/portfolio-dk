@@ -6,6 +6,10 @@
   background-color: $color-accent;
   color: $color-secondary;
 
+  @media (min-width: 768px) {
+    min-height: 25vh;
+  }
+
   h2 {
     color: $color-secondary;
     margin-left: 5px;

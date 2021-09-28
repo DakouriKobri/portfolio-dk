@@ -4,7 +4,20 @@
   margin-right: 5px;
   margin-left: 5px;
 
+  @media (min-width: 768px) {
+    min-height: 50vh;
+  }
   .about__text {
     margin-left: 5px;
+  }
+
+  .about__image img {
+    @media (min-width: 768px) {
+      width: 60vw;
+
+      margin-left: 20vw;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
   }
 }
