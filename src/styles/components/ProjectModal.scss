@@ -1,0 +1,60 @@
+@import "../base/variables";
+
+.modal-card {
+  width: 340px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: $color-secondary;
+
+  .modal-thumbnail {
+    display: flex;
+    justify-content: center;
+
+    .thumbnail {
+      width: 340px;
+      height: 300px;
+      object-fit: contain;
+    }
+  }
+
+  .skills {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    span {
+      background-color: #fff;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 15px;
+      margin-top: 5px;
+      font-size: small;
+      padding: 3px;
+      margin-left: 2px;
+    }
+  }
+
+  .btns {
+    width: 340px;
+
+    .btn-to-web {
+      background-color: $color-primary;
+      color: $color-secondary;
+      padding: 10px 120px;
+      margin-right: 5px;
+      color: #fff;
+      font-weight: 600;
+
+      border-style: none;
+      margin-bottom: 5px;
+    }
+
+    .btn-to-repo {
+      padding: 10px 120px;
+      margin-right: 5px;
+      color: $color-primary;
+      font-weight: 600;
+      border-color: $color-primary;
+      border-style: solid;
+    }
+  }
+}
