@@ -8,8 +8,21 @@
   transition: all 0.5s ease;
   cursor: pointer;
 
-  label {
+  .project-status {
     position: absolute;
+  }
+
+  &.active {
+    &:hover {
+      background-color: black;
+      .thumbnail {
+        opacity: 0.2;
+        z-index: 0;
+        &.no-click {
+          pointer-events: none;
+        }
+      }
+    }
   }
 
   .thumbnail {

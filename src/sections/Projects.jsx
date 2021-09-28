@@ -1,10 +1,18 @@
 // Project files
 import ProjectCard from "../components/ProjectCard";
 import projectData from "../data/projectData.json";
+import ProjectModal from "../components/ProjectModal";
 
-export default function Projects() {
+export default function Projects({ setModal }) {
+  function onProject(project) {
+    setModal(<ProjectModal project={project} />);
+  }
   const ProjectList = projectData.map((project) => (
-    <ProjectCard key={project.id} project={project} />
+    <ProjectCard
+      key={project.id}
+      project={project}
+      onClick={() => onProject(project)}
+    />
   ));
 
   return (
