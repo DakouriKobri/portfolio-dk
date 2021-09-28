@@ -7,6 +7,15 @@
   grid-template-columns: 1fr;
   background-color: $color-secondary;
 
+  h3 {
+    color: $color-primary;
+  }
+  h3,
+  p,
+  .skills {
+    margin-left: 5px;
+  }
+
   .modal-thumbnail {
     display: flex;
     justify-content: center;
@@ -34,26 +43,28 @@
   }
 
   .btns {
-    width: 340px;
+    width: 200px;
 
     .btn-to-web {
       background-color: $color-primary;
       color: $color-secondary;
-      padding: 10px 120px;
+      padding: 10px 110.8px;
       margin-right: 5px;
       color: #fff;
       font-weight: 600;
-
+      overflow: hidden;
+      white-space: nowrap;
       border-style: none;
       margin-bottom: 5px;
     }
 
     .btn-to-repo {
-      padding: 10px 120px;
+      padding: 10px 122.5px;
       margin-right: 5px;
       color: $color-primary;
       font-weight: 600;
       border-color: $color-primary;
+      white-space: nowrap;
       border-style: solid;
     }
   }

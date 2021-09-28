@@ -1,35 +1,38 @@
-.card .thumbnail-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: 100px;
-  position: relative;
-  transition: all 0.5s ease;
-  cursor: pointer;
+.card {
+  .thumbnail-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100px;
+    position: relative;
+    transition: all 0.5s ease;
+    cursor: pointer;
 
-  .project-status {
-    position: absolute;
-  }
+    .project-status {
+      position: absolute;
+      overflow-x: hidden;
+    }
 
-  &.active {
-    &:hover {
-      background-color: black;
-      .thumbnail {
-        opacity: 0.2;
-        z-index: 0;
-        &.no-click {
-          pointer-events: none;
+    .thumbnail {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    &.active {
+      &:hover {
+        background-color: black;
+        .thumbnail {
+          opacity: 0.2;
+          z-index: 0;
+          &.no-click {
+            pointer-events: none;
+          }
         }
       }
     }
-  }
-
-  .thumbnail {
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    object-fit: cover;
-    z-index: 1;
   }
 }
